@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formValidation.css">
+    <title>Form JS Validation</title>
+</head>
+<body>
+    <section class="container">
+        
+        <h3>Create an Account</h3>
+        <div class="success" id="jomo"></div>
+
+        <form action="#" id="myForm" onsubmit="return checker()" method="get">
+            
+            <div class="input-field">
+                <input type="Username" placeholder="Username" name="Username" id="username" autocomplete="off">
+                <span id="nameError"></span>
+            </div>
+        
+            <div class="input-field">
+                <input type="subject" placeholder="Subject" name="Subject" id="sub" autocomplete="off">
+                <span id="subError"></span>
+            </div>
+        
+            <div class="input-field">
+                <input type="text" placeholder="+234-xxxx-xxx-xxx " name="Phone-number" id="phone" autocomplete="off">
+                <span id="phError"></span>
+            </div>
+        
+            <div class="input-field">
+                <input type="text" placeholder="Email@example.com" name="email" id="email" autocomplete="off">
+                <span id="emailError"></span>
+            </div>
+        
+            <div class="input-field">
+                <input type="password" placeholder="Password" name="password" id="password" autocomplete="off">
+                <span id="passError"></span>
+            </div>
+        
+            <div class="input-field">
+                <input type="password" placeholder="Confirm Password" name="password2" id="password2" autocomplete="off">
+                <span id="pass2Error"></span>
+            </div>
+
+            <div class="input-field">
+                <textarea name="comment" id="textArea" placeholder="Comments" cols="30" rows="10"></textarea>
+                <span id="txtAError"></span>
+            </div>
+
+            <div class="input-field">
+                <input type="submit" value="Submit" name="" id="btnSubmit">
+            </div>
+
+        </form>
+    </section>
+    <script src="formvalidation.js"></script>
+</body>
+</html>

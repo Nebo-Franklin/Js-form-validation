@@ -1,0 +1,88 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #222222;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+h3
+{
+    margin-bottom: .4em;
+    letter-spacing: 4px;
+    color: rgb(121, 121, 44);
+    text-shadow: 1px 1px 5px #ccc;
+}
+
+.container
+{
+    background-color: #D9d9d9;
+    width: 25%;
+    /* height: 95vh; */
+    margin: 20px auto;
+    text-align: center;
+    padding: 1em 1.5em;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px greenyellow;
+
+}
+
+
+input, textarea
+{
+    width: 100%;
+    display: block;
+    border: 1px solid rgb(175, 121, 121);
+    border-radius: 8px;
+    padding: 10px;
+    outline: none;
+    margin-bottom: .6em;
+}
+
+span
+{
+    display: block;
+    text-align: center;
+    font-size: .5em;
+    color: red;
+    position: fixed;
+    margin-top: -2.3em;
+    margin-left: 1.4em;
+}
+
+.success
+{
+    text-align: center;
+    background-color: rgb(63, 168, 63);
+    margin-bottom: .5em;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+input[type='submit']
+{
+    background-color: rgb(121, 121, 44);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    margin-top: 15px;
+}
+
+.errorborder
+{
+    border: 1px solid red;
+}
+
+.successborder
+{
+    border: 1px solid rgb(60, 228, 60);
+}
